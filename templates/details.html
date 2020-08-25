@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block content %}
+
+<div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">City: {{content[0]}}</li>
+    <li class="list-group-item">Temp: {{content[1]}}</li>
+    <li class="list-group-item">Humidity: {{content[2]}}</li>
+    <li class="list-group-item">Clouds: {{content[3]}}</li>
+    <li class="list-group-item">Description: {{content[4]}}</li>
+  </ul>
+</div>
+
+{% endblock %}
